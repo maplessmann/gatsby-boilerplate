@@ -1,19 +1,19 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-advanced-boilerplate",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gatsby boilerplate to help you start your project ready to run 🚀",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Matheus Plessmann",
   "dependencies": {
     "gatsby": "^2.23.12",
     "gatsby-image": "^2.4.9",
+    "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-manifest": "^2.4.14",
     "gatsby-plugin-offline": "^3.2.13",
     "gatsby-plugin-react-helmet": "^3.3.6",
     "gatsby-plugin-sharp": "^2.6.14",
     "gatsby-source-filesystem": "^2.3.14",
     "gatsby-transformer-sharp": "^2.5.7",
-    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0"
@@ -22,7 +22,8 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "boilerplate"
   ],
   "license": "0BSD",
   "scripts": {
@@ -35,9 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/maplessmann/gatsby-advanced-boilerplate"
   },
+  "homepage": "https://github.com/maplessmann/gatsby-advanced-boilerplate#readme",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/maplessmann/gatsby-advanced-boilerplate/issues"
   }
 }
