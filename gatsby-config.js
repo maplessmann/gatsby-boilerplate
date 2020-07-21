@@ -42,6 +42,7 @@ module.exports = {
     gatsbySourceFilesystem,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     gatsbyPluginManifest,
     gatsbyPluginAliasImports,
   ],
