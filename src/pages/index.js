@@ -21,7 +21,7 @@ const IndexPage = () => {
       <h1>Home page</h1>
 
       <h2>Images with lazy loading</h2>
-      <Img fixed={data.file.childImageSharp.fixed} />
+      <Img fixed={data.file.childImageSharp.fixed} alt="Image example" />
       <p>
         See the{' '}
         <Link external to="https://www.gatsbyjs.org/docs/gatsby-image/">
