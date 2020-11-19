@@ -1,5 +1,7 @@
 # gatsby-advanced-boilerplate
 
+🚀 A Gatsby boilerplate to help you build static websites
+
 ## Install
 
 ```bash
