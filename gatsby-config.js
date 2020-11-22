@@ -21,6 +21,15 @@ const gatsbyPluginManifest = {
   },
 }
 
+const gatsbyPluginSass = {
+  resolve: `gatsby-plugin-sass`,
+  options: {
+    data: `
+      @import "${__dirname}/src/styles/index";
+    `,
+  },
+}
+
 const gatsbyPluginAliasImports = {
   resolve: `gatsby-plugin-alias-imports`,
   options: {
@@ -41,10 +50,10 @@ module.exports = {
     gatsbySourceFilesystem,
     gatsbyPluginManifest,
     gatsbyPluginAliasImports,
+    gatsbyPluginSass,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sass`,
     `gatsby-plugin-layout`,
     `gatsby-plugin-provide-react`,
   ],

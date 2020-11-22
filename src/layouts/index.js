@@ -1,4 +1,5 @@
 import SEO from 'components/SEO'
+import './Layout.scss'
 
 const Layout = ({ children }) => {
   return (
