@@ -2,10 +2,10 @@ import SEO from '@components/SEO'
 
 const Layout = ({ children }) => {
   return (
-    <div className="layout">
+    <main className="layout">
       <SEO />
       {children}
-    </div>
+    </main>
   )
 }
 
