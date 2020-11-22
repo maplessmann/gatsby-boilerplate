@@ -12,7 +12,7 @@ const gatsbyPluginManifest = {
   resolve: `gatsby-plugin-manifest`,
   options: {
     name: `gatsby-advanced-boilerplate`,
-    short_name: `starter`,
+    short_name: `Gatsby Boilerplate`,
     start_url: `/`,
     background_color: `#663399`,
     theme_color: `#663399`,
@@ -34,17 +34,18 @@ const gatsbyPluginAliasImports = {
 module.exports = {
   siteMetadata: {
     title: `Gatsby Advanced Boilerplate`,
-    description: `A Gatsby Boilerplate`,
+    description: `A Gatsby boilerplate to help you build static websites`,
     author: `@maplessmann`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     gatsbySourceFilesystem,
+    gatsbyPluginManifest,
+    gatsbyPluginAliasImports,
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-layout`,
     `gatsby-plugin-provide-react`,
-    gatsbyPluginManifest,
-    gatsbyPluginAliasImports,
   ],
 }
