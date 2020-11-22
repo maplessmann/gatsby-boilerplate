@@ -25,7 +25,7 @@ const gatsbyPluginAliasImports = {
   resolve: `gatsby-plugin-alias-imports`,
   options: {
     alias: {
-      '@components': path.resolve(__dirname, 'src/components'),
+      'components': path.resolve(__dirname, 'src/components'),
     },
     extensions: ['js', 'sass'],
   },
