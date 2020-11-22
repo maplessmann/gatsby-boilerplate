@@ -1,6 +1,6 @@
 # gatsby-advanced-boilerplate
 
-🚀 A Gatsby boilerplate to help you build static websites
+🚀 A Gatsby boilerplate to help you create static and fast websites
 
 ## Install
 
