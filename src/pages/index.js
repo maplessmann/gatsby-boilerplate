@@ -18,7 +18,14 @@ const IndexPage = () => {
 
   return (
     <div className="home-page">
-      <h1>Home page</h1>
+      <h1>Gatsby Advanced Boilerplate</h1>
+
+      <Link
+        external
+        to="https://github.com/maplessmann/gatsby-advanced-boilerplate"
+      >
+        GitHub
+      </Link>
 
       <h2>Images with lazy loading</h2>
       <Img fixed={data.file.childImageSharp.fixed} alt="Image example" />
