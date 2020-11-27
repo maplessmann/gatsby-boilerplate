@@ -8,8 +8,9 @@ const IndexPage = () => {
     query {
       file(absolutePath: { regex: "/example-image.jpg/" }) {
         childImageSharp {
-          fixed(width: 600, quality: 90) {
-            ...GatsbyImageSharpFixed_withWebp
+          fluid(maxWidth: 600, quality: 80) {
+            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluidLimitPresentationSize
           }
         }
       }
@@ -28,7 +29,7 @@ const IndexPage = () => {
       </Link>
 
       <h2>Images with lazy loading</h2>
-      <Img fixed={data.file.childImageSharp.fixed} alt="Image example" />
+      <Img fluid={data.file.childImageSharp.fluid} alt="Image example" />
       <p>
         See the{' '}
         <Link external to="https://www.gatsbyjs.org/docs/gatsby-image/">
