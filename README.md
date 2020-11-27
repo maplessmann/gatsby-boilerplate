@@ -26,4 +26,4 @@ Open the server at `localhost:9000`
 
 ## Performance
 
-![image](https://user-images.githubusercontent.com/12679778/99896552-56412000-2c70-11eb-9207-2aeb461791be.png)
+![image](https://user-images.githubusercontent.com/12679778/100407814-32068a00-3048-11eb-84f0-bba270b343a0.png)
