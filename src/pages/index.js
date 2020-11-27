@@ -9,7 +9,7 @@ const IndexPage = () => {
       file(absolutePath: { regex: "/example-image.jpg/" }) {
         childImageSharp {
           fixed(width: 600, quality: 90) {
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFixed_withWebp
           }
         }
       }
