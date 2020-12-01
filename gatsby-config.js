@@ -36,6 +36,7 @@ const gatsbyPluginAliasImports = {
     alias: {
       components: path.resolve(__dirname, 'src/components'),
       hooks: path.resolve(__dirname, 'src/hooks'),
+      services: path.resolve(__dirname, 'src/services/index.js'),
       styles: path.resolve(__dirname, 'src/styles'),
     },
     extensions: ['js', 'sass'],

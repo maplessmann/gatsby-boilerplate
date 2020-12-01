@@ -1,0 +1,44 @@
+.github-user {
+  display: block;
+  padding: 1.5rem;
+  width: 480px;
+  max-width: 100%;
+  border: 1px solid #efefef;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 20px 5px rgba(135, 135, 135, 0.16);
+  color: inherit;
+  font-size: 1rem;
+  text-decoration: none;
+
+  > .header {
+    display: flex;
+    align-items: center;
+
+    > .avatar {
+      border-radius: 50%;
+      width: 60px;
+    }
+
+    > .names {
+      padding-left: 1rem;
+
+      > .name {
+        display: block;
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+
+      > .login {
+        display: block;
+        padding-top: 0.2rem;
+        font-size: 0.9rem;
+        color: var(--text-light, #9dabbd);
+      }
+    }
+  }
+
+  > .bio {
+    margin: 0;
+    padding-top: 1rem;
+  }
+}
