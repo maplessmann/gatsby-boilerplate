@@ -1,12 +1,11 @@
 .github-user {
   display: block;
   padding: 1.5rem;
-  width: 480px;
+  width: 420px;
   max-width: 100%;
-  border: 1px solid #efefef;
   border-radius: 0.75rem;
-  box-shadow: 0 4px 20px 5px rgba(135, 135, 135, 0.16);
-  color: inherit;
+  background-color: #fff;
+  box-shadow: 0 12px 50px -8px rgba(135, 135, 135, 0.3);
   font-size: 1rem;
   text-decoration: none;
 
@@ -21,6 +20,11 @@
 
     > .names {
       padding-left: 1rem;
+      color: inherit;
+
+      &:not(:hover) {
+        text-decoration: none;
+      }
 
       > .name {
         display: block;
@@ -40,5 +44,6 @@
   > .bio {
     margin: 0;
     padding-top: 1rem;
+    line-height: 1.3;
   }
 }
