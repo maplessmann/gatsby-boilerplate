@@ -10,6 +10,7 @@ const useGitHubUser = () => {
 
   return {
     userData,
+    isReady: Object.values(userData).length > 0,
   }
 }
 

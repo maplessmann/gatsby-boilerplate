@@ -3,7 +3,9 @@ import useGitHubUser from 'hooks/useGitHubUser'
 import './index.scss'
 
 const GitHubUser = () => {
-  const { userData } = useGitHubUser()
+  const { userData, isReady } = useGitHubUser()
+
+  if (!isReady) return null
 
   return (
     <div className="github-user">
