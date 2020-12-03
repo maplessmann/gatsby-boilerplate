@@ -12,7 +12,7 @@ const SearchBox = ({ onSearch }) => {
         type="text"
         placeholder="maplessmann"
         autoComplete="off"
-        spellcheck="false"
+        spellCheck="false"
       />
     </form>
   )
