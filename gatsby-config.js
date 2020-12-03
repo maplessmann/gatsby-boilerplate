@@ -47,7 +47,7 @@ const gatsbyPluginAliasImports = {
 module.exports = {
   siteMetadata: {
     title: `Gatsby Advanced Boilerplate`,
-    description: `A Gatsby boilerplate to help you create static and fast websites`,
+    description: `A boilerplate to help you create static and fast websites`,
     repository: `maplessmann/gatsby-advanced-boilerplate`,
     author: `@maplessmann`,
   },

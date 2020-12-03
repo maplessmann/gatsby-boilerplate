@@ -17,17 +17,12 @@ const IndexPage = () => {
 
   return (
     <div className="home-page">
-      <h1>{data.site.siteMetadata.title}</h1>
-      <p>{data.site.siteMetadata.description}</p>
-
       <Link
         external
         to={`https://github.com/${data.site.siteMetadata.repository}`}
       >
-        repository
+        <h1 className="title">{data.site.siteMetadata.title}</h1>
       </Link>
-
-      <h2>Try it!</h2>
       <GitHubSearch />
     </div>
   )
