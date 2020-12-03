@@ -4,7 +4,7 @@ const SearchBox = ({ onSearch }) => {
   return (
     <form action="" className="search-box" onSubmit={onSearch}>
       <label className="label" htmlFor="username">
-        Find the Github profile @
+        Find this Github profile @
       </label>
       <input
         className="input"
