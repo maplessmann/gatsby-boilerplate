@@ -8,7 +8,7 @@ const GitHubSearch = () => {
 
   return (
     <div className="github-search">
-      <h2>Try me</h2>
+      <h2 className="title">Try me</h2>
       <SearchBox onSearch={onSearch} />
       <UserCard userData={userData} />
     </div>

@@ -1,0 +1,29 @@
+.app-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--primary, #5b55e0);
+
+  > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > .title {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #fff;
+
+      @include above(m) {
+        font-size: 1.5rem;
+      }
+    }
+
+    > .link {
+      > .github-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: #fff;
+      }
+    }
+  }
+}

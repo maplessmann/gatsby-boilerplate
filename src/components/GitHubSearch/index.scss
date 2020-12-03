@@ -1,5 +1,8 @@
 .github-search {
-  padding-top: 1rem;
+  > .title {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
 
   > .search-box {
     padding-bottom: 2rem;
