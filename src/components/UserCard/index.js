@@ -1,14 +1,13 @@
 import Link from 'components/Link'
-import useGitHubUser from 'hooks/useGitHubUser'
 import './index.scss'
 
-const GitHubUser = () => {
-  const { userData, isReady } = useGitHubUser()
+const UserCard = ({ userData }) => {
+  const hasUserData = Object.values(userData).length > 0
 
-  if (!isReady) return null
+  if (!hasUserData) return null
 
   return (
-    <div className="github-user">
+    <div className="user-card">
       <header className="header">
         <img className="avatar" src={userData.avatar_url} alt="GitHub avatar" />
         <Link className="names" href={userData.html_url} external>
@@ -21,4 +20,4 @@ const GitHubUser = () => {
   )
 }
 
-export default GitHubUser
+export default UserCard

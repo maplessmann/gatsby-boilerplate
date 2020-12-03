@@ -1,0 +1,21 @@
+.search-box {
+  > .label {
+    font-size: 1rem;
+  }
+
+  > .input {
+    padding-bottom: 0.1rem;
+    width: 10rem;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    color: inherit;
+    font-size: 1rem;
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: inset 0 -1px 0 0 var(--text-light, #6a7585);
+
+    &:focus {
+      box-shadow: inset 0 -2px 0 0 var(--primary, #5b55e0);
+    }
+  }
+}

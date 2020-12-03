@@ -38,6 +38,7 @@ const gatsbyPluginAliasImports = {
       hooks: path.resolve(__dirname, 'src/hooks'),
       services: path.resolve(__dirname, 'src/services/index.js'),
       styles: path.resolve(__dirname, 'src/styles'),
+      images: path.resolve(__dirname, 'src/images'),
     },
     extensions: ['js', 'sass'],
   },
@@ -46,7 +47,8 @@ const gatsbyPluginAliasImports = {
 module.exports = {
   siteMetadata: {
     title: `Gatsby Advanced Boilerplate`,
-    description: `A Gatsby boilerplate to help you build static websites`,
+    description: `A Gatsby boilerplate to help you create static and fast websites`,
+    repository: `maplessmann/gatsby-advanced-boilerplate`,
     author: `@maplessmann`,
   },
   plugins: [
