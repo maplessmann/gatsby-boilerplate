@@ -30,20 +30,6 @@ const gatsbyPluginSass = {
   },
 }
 
-const gatsbyPluginAliasImports = {
-  resolve: `gatsby-plugin-alias-imports`,
-  options: {
-    alias: {
-      components: path.resolve(__dirname, 'src/components'),
-      hooks: path.resolve(__dirname, 'src/hooks'),
-      services: path.resolve(__dirname, 'src/services/index.js'),
-      styles: path.resolve(__dirname, 'src/styles'),
-      images: path.resolve(__dirname, 'src/images'),
-    },
-    extensions: ['js', 'sass'],
-  },
-}
-
 module.exports = {
   siteMetadata: {
     title: `Gatsby Boilerplate`,
@@ -54,7 +40,6 @@ module.exports = {
   plugins: [
     gatsbySourceFilesystem,
     gatsbyPluginManifest,
-    gatsbyPluginAliasImports,
     gatsbyPluginSass,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
