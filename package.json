@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Matheus Plessmann",
   "dependencies": {
-    "gatsby": "^2.23.12",
+    "gatsby": "^2.28.0",
     "gatsby-image": "^2.4.9",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-layout": "^1.5.0",
