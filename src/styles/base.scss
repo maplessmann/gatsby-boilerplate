@@ -12,12 +12,12 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--background, #f5f5f5);
-  color: var(--text, #2e394a);
+  background-color: color(background);
+  color: color(text);
 }
 
 .container {
-  max-width: 65rem;
+  max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
