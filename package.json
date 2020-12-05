@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-advanced-boilerplate",
+  "name": "gatsby-boilerplate",
   "private": true,
   "description": "A Gatsby boilerplate to help you start your project ready to run 🚀",
   "version": "0.1.0",
@@ -39,10 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maplessmann/gatsby-advanced-boilerplate"
+    "url": "https://github.com/maplessmann/gatsby-boilerplate"
   },
-  "homepage": "https://github.com/maplessmann/gatsby-advanced-boilerplate#readme",
+  "homepage": "https://github.com/maplessmann/gatsby-boilerplate#readme",
   "bugs": {
-    "url": "https://github.com/maplessmann/gatsby-advanced-boilerplate/issues"
+    "url": "https://github.com/maplessmann/gatsby-boilerplate/issues"
   }
 }

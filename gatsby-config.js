@@ -11,7 +11,7 @@ const gatsbySourceFilesystem = {
 const gatsbyPluginManifest = {
   resolve: `gatsby-plugin-manifest`,
   options: {
-    name: `gatsby-advanced-boilerplate`,
+    name: `gatsby-boilerplate`,
     short_name: `Gatsby Boilerplate`,
     start_url: `/`,
     background_color: `#663399`,
@@ -46,9 +46,9 @@ const gatsbyPluginAliasImports = {
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Advanced Boilerplate`,
-    description: `A boilerplate to help you create static and fast websites`,
-    repository: `maplessmann/gatsby-advanced-boilerplate`,
+    title: `Gatsby Boilerplate`,
+    description: `A boilerplate to help you create scalable and fast websites`,
+    repository: `maplessmann/gatsby-boilerplate`,
     author: `@maplessmann`,
   },
   plugins: [
