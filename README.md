@@ -1,28 +1,28 @@
-# ⚛️ Gatsby Boilerplate
+# Gatsby Boilerplate
 
 🚀 A boilerplate to help you create scalable and fast websites
 
-## Install
+## Quick start
+
+Clone this repository
+
+```bash
+git clone git@github.com:maplessmann/gatsby-boilerplate.git
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-## Run
+Run the project
 
 ```bash
 npm run start
 ```
 
 Open the local server at `localhost:8000`
-
-## Build
-
-```bash
-npm run build && npm run serve
-```
-
-Open the server at `localhost:9000`
 
 ## Performance
 
