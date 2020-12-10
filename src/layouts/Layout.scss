@@ -7,5 +7,10 @@
     @include above(m) {
       padding-top: 28vh;
     }
+
+    > .title {
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
   }
 }
