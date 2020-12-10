@@ -1,6 +1,6 @@
-$colors: (
-  primary: var(--primary, #5b55e0),
-  background: var(--background, #f5f5f5),
-  text: var(--text, #2e394a),
-  text-light: var(--text-light, #6a7585),
-);
+:root {
+  --color-primary: #5b55e0;
+  --color-bg-primary: #f5f5f5;
+  --color-text-primary: #2e394a;
+  --color-text-secondary: #6a7585;
+}

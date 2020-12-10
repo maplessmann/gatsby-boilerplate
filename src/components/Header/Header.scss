@@ -1,7 +1,7 @@
 .app-header {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: color(primary);
+  background-color: var(--color-primary);
 
   > .container {
     display: flex;
