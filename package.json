@@ -1,7 +1,7 @@
 {
   "name": "gatsby-boilerplate",
-  "private": true,
-  "description": "A Gatsby boilerplate to help you start your project ready to run 🚀",
+  "private": false,
+  "description": "A boilerplate to help you create scalable and fast websites",
   "version": "0.1.0",
   "author": "Matheus Plessmann",
   "dependencies": {
@@ -29,12 +29,11 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "start": "gatsby develop",
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "repository": {
     "type": "git",
