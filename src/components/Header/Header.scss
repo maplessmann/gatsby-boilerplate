@@ -10,11 +10,29 @@
 
     > .title {
       margin: 0;
-      font-size: 1.2rem;
+      font-size: 1rem;
       color: #fff;
 
       @include above(m) {
         font-size: 1.5rem;
+      }
+    }
+
+    > .navigation {
+      margin-left: auto;
+      padding-left: 1rem;
+      padding-right: 1.5rem;
+
+      @include above(m) {
+        padding-right: 3rem;
+      }
+
+      > .link {
+        color: #fff;
+
+        + .link {
+          margin-left: 1rem
+        }
       }
     }
 

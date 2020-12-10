@@ -16,6 +16,10 @@ body {
   color: color(text);
 }
 
+a:not(:hover) {
+  text-decoration: none;
+}
+
 .container {
   max-width: 64rem;
   margin-left: auto;

@@ -19,6 +19,10 @@ const Header = () => {
     <header className="app-header">
       <div className="container">
         <h1 className="title">{data.site.siteMetadata.title}</h1>
+        <nav className="navigation">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+        </nav>
         <Link
           external
           to={`https://github.com/${data.site.siteMetadata.repository}`}
