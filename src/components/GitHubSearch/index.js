@@ -1,9 +1,9 @@
-import SearchBox from 'components/SearchBox'
-import UserCard from 'components/UserCard'
+import SearchBox from './SearchBox'
+import UserCard from './UserCard'
 import useGitHubSearch from 'hooks/useGitHubSearch'
-import './index.scss'
+import './GithubSearch.scss'
 
-const GitHubSearch = () => {
+const GithubSearch = () => {
   const { userData, onSearch } = useGitHubSearch()
 
   return (
@@ -15,4 +15,4 @@ const GitHubSearch = () => {
   )
 }
 
-export default GitHubSearch
+export default GithubSearch

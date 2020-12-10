@@ -1,4 +1,4 @@
-import './index.scss'
+import './SearchBox.scss'
 
 const SearchBox = ({ onSearch }) => {
   return (

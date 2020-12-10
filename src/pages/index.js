@@ -1,11 +1,11 @@
-import GitHubSearch from 'components/GitHubSearch'
+import GithubSearch from 'components/GithubSearch'
 
-const IndexPage = () => {
+const HomePage = () => {
   return (
-    <div className="home-page">
-      <GitHubSearch />
+    <div className="page">
+      <GithubSearch />
     </div>
   )
 }
 
-export default IndexPage
+export default HomePage

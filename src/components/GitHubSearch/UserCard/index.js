@@ -1,5 +1,5 @@
 import Link from 'components/Link'
-import './index.scss'
+import './UserCard.scss'
 
 const UserCard = ({ userData }) => {
   const hasUserData = Object.values(userData).length > 0
