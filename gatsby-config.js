@@ -1,5 +1,3 @@
-const path = require('path')
-
 const gatsbySourceFilesystem = {
   resolve: `gatsby-source-filesystem`,
   options: {
@@ -32,7 +30,7 @@ const gatsbyPluginSass = {
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Boilerplate`,
+    title: `⚛️ Gatsby Boilerplate`,
     description: `A boilerplate to help you create scalable and fast websites`,
     repository: `maplessmann/gatsby-boilerplate`,
     author: `@maplessmann`,
