@@ -21,7 +21,7 @@ const Header = () => {
         <h1 className="title">{data.site.siteMetadata.title}</h1>
         <nav className="navigation">
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/404">404</Link>
         </nav>
         <Link
           external
