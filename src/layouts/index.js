@@ -1,6 +1,5 @@
 import SEO from 'components/SEO'
 import Header from 'components/Header'
-import './Layout.scss'
 
 const Layout = ({ children }) => {
   return (
