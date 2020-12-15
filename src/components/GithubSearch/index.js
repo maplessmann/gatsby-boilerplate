@@ -9,7 +9,7 @@ const GithubSearch = () => {
   const { userData, onSearch } = useGitHubSearch()
 
   return (
-    <Section title="Try me" className="github-search">
+    <Section title="Data fetching" className="github-search">
       <SearchBox onSearch={onSearch} />
       <UserCard userData={userData} />
     </Section>

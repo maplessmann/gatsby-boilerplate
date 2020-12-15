@@ -1,20 +1,30 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
 import services from 'services'
 
 const useGitHubSearch = () => {
-  const [username, setUsername] = useState('maplessmann')
-  const [userData, setUserData] = useState({})
-
-  useEffect(() => {
-    if (username) {
-      services.github.getUser(username).then(setUserData)
+  const githubData = useStaticQuery(graphql`
+    query {
+      github {
+        user(login: "maplessmann") {
+          avatarUrl(size: 90)
+          login
+          name
+          url
+          bio
+        }
+      }
     }
-  }, [username])
+  `)
+  const [userData, setUserData] = useState(githubData.github.user)
 
   const onSearch = e => {
     e.preventDefault()
+    const username = e.target.username.value
 
-    setUsername(e.target.username.value)
+    if (username) {
+      services.github.getUser(username).then(setUserData)
+    }
   }
 
   return {

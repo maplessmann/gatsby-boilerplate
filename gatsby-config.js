@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const gatsbySourceFilesystem = {
   resolve: `gatsby-source-filesystem`,
   options: {
@@ -28,6 +30,18 @@ const gatsbyPluginSass = {
   },
 }
 
+const gatsbySourceGraphql = {
+  resolve: `gatsby-source-graphql`,
+  options: {
+    typeName: `GitHub`,
+    fieldName: `github`,
+    url: `https://api.github.com/graphql`,
+    headers: {
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+    },
+  },
+}
+
 module.exports = {
   siteMetadata: {
     title: `⚛️ Gatsby Boilerplate`,
@@ -37,6 +51,7 @@ module.exports = {
   },
   plugins: [
     gatsbySourceFilesystem,
+    gatsbySourceGraphql,
     gatsbyPluginManifest,
     gatsbyPluginSass,
     `gatsby-plugin-react-helmet`,
