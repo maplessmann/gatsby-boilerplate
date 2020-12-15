@@ -7,7 +7,7 @@ const useGitHubSearch = () => {
     query {
       github {
         user(login: "maplessmann") {
-          avatarUrl(size: 90)
+          avatarUrl
           login
           name
           url
