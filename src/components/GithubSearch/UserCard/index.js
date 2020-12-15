@@ -1,4 +1,5 @@
 import Link from 'components/Link'
+
 import './UserCard.scss'
 
 const UserCard = ({ userData }) => {
