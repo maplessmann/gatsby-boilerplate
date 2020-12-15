@@ -1,16 +1,11 @@
 .layout {
   > .page {
-    @extend .container;
     padding-top: 3rem;
-    text-align: center;
+    padding-bottom: 3rem;
 
     @include above(m) {
-      padding-top: 28vh;
-    }
-
-    > .title {
-      margin-top: 0;
-      font-size: 1.8rem;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
     }
   }
 }

@@ -1,11 +1,13 @@
+import Page from 'components/Page'
 import GithubSearch from 'components/GithubSearch'
+import ImageExample from 'components/ImageExample'
 
 const HomePage = () => {
   return (
-    <div className="page">
-      <h2 className="title">Try me</h2>
+    <Page>
       <GithubSearch />
-    </div>
+      <ImageExample />
+    </Page>
   )
 }
 

@@ -1,0 +1,10 @@
+.section {
+  & + & {
+    padding-top: 3rem;
+  }
+
+  > .title {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+}
