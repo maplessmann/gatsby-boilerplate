@@ -54,9 +54,10 @@ module.exports = {
     gatsbySourceGraphql,
     gatsbyPluginManifest,
     gatsbyPluginSass,
+    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-layout`,
+    `gatsby-transformer-sharp`,
   ],
 }
