@@ -18,6 +18,9 @@ const gatsbyPluginManifest = {
     theme_color: `#663399`,
     display: `minimal-ui`,
     icon: `src/images/gatsby-icon.png`,
+    icon_options: {
+      purpose: `any maskable`,
+    },
   },
 }
 
