@@ -9,7 +9,11 @@
 - Build time and runtime data fetching
 - Modern JavaScript
 - Fast build time (~ 1 min)
-- Accessibility
+- Accessibility best practices
+
+## Performance score
+
+![image](https://user-images.githubusercontent.com/12679778/102304565-7fd22c00-3f3c-11eb-9e80-2e3e70f53bec.png)
 
 ## Getting Started
 
@@ -32,7 +36,3 @@ npm run start
 ```
 
 Open the local server at `localhost:8000`
-
-## Performance score
-
-![image](https://user-images.githubusercontent.com/12679778/100407814-32068a00-3048-11eb-84f0-bba270b343a0.png)
