@@ -9,6 +9,7 @@
 - Build time and runtime data fetching
 - Modern JavaScript
 - Fast build time (~ 1 min)
+- Google Analytics integration
 - Accessibility best practices
 
 ## Performance score
