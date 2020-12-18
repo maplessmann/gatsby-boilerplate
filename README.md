@@ -14,7 +14,7 @@
 
 ## Performance score
 
-![image](https://user-images.githubusercontent.com/12679778/102304565-7fd22c00-3f3c-11eb-9e80-2e3e70f53bec.png)
+![image](https://user-images.githubusercontent.com/12679778/102672408-7977c600-416f-11eb-8eb7-05401732b5c4.png)
 
 ## Getting Started
 
