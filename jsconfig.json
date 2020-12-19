@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "paths": {
+      "components/*": ["./components/*"],
+      "hooks/*": ["./hooks/*"],
+      "images/*": ["./images/*"],
+      "pages/*": ["./pages/*"],
+      "services/*": ["./services/*"],
+      "styles/*": ["./styles/*"],
+      "utils/*": ["./utils/*"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "public", ".cache", ".git"]
+}
