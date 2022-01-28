@@ -24,14 +24,16 @@ Clone this repository
 git clone git@github.com:maplessmann/gatsby-boilerplate.git
 ```
 
-Install dependencies
+Install dependencies using your favourite package manager
 
 ```bash
-# Via NPM:
-npm install
-
-# Via Yarn:
 yarn
+```
+
+or
+
+```bash
+npm install
 ```
 
 For the build time data fetching example to work, you'll need to create a `.env` file in the root directory with your github token:
@@ -51,11 +53,13 @@ See how to create an access token in the [GitHub's documentation](https://docs.g
 Run the project
 
 ```bash
-# Via NPM:
-npm run start
-
-# Via Yarn:
 yarn start
+```
+
+or
+
+```bash
+npm run start
 ```
 
 Open the local server at `localhost:8000`
